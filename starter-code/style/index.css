@@ -13,3 +13,36 @@
 .card:hover .card-img-top {
   transform: scale(1.05);
 }
+
+.main-container {
+  padding: 30px 50px;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  padding: 20px;
+}
+
+.card h1 {
+  font-size: 49px;
+}
+
+.card h2 {
+  font-size: 25px;
+}
+
+#container-themes {
+  display: flex;
+  flex-direction: row;
+}
